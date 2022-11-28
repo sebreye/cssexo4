@@ -17,3 +17,7 @@ section:nth-child(even)
 section:nth-child(7)>h2:hover{
     font-size: 30px;
 }
+section:nth-child(7)>input:focus {
+    background-color: black;
+    color: white;
+}
