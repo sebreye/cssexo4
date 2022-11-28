@@ -24,3 +24,8 @@ section:nth-child(7)>input:focus {
 a[href*='./p']{
     border-top:2px solid red ;
 }
+section:nth-child(2n+1) h2{
+    background-color: black;
+    color: white;
+}
+    
