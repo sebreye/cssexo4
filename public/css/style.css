@@ -7,3 +7,6 @@ section:nth-child(2) li:nth-child(even):hover{
 span~p{
     background-color: green;
 }
+ul li{
+    border-left: 5px solid black;
+}
