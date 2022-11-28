@@ -1,7 +1,7 @@
 h1{
     border: 1px solid red;
 }
-section:nth-child(2) li:nth-child(even):hover{
+section:nth-child(2)>ul:nth-child(even):hover{
     text-decoration: underline;
 }
 span~p{
@@ -13,4 +13,7 @@ ul li{
 section:nth-child(even)
 {
     background-color: yellow;
+}
+section:nth-child(7)>h2:hover{
+    font-size: 30px;
 }
